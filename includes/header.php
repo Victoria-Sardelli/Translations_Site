@@ -1,16 +1,18 @@
-<header>
-  <div class="topbar">
-    <a href="#" class="topbar-text">Translation Practice</a>
-    <ul class="nav">
-      <li class="nav-item">
-        <a href="#">Songs</a>
-      </li>
-      <li class="nav-item">
-        <a href="#">Books</a>
-      </li>
-      <li class="nav-item">
-        <a href="#">Poems</a>
-      </li>
-    </ul>
-  </div>
-</header>
+  <header>
+    <div class="topbar">
+      <a href="index.php" class="topbar-text">Translation Practice</a>
+      <ul class="nav">
+        <li class="nav-item">
+          <a href="category.php">Songs</a>
+        </li>
+        <li class="nav-item">
+          <a href="category.php">Books</a>
+        </li>
+        <li class="nav-item">
+          <a href="category.php">Poems</a>
+        </li>
+      </ul>
+    </div>
+  </header>
+</head>
+<body>

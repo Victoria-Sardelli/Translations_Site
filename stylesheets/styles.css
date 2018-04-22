@@ -8,14 +8,15 @@ body {
   flex-direction: column;
 }
 
-/** intro page styles **/
-.intro {
+/** main content styles **/
+.main-content {
   align-self: center;
   color: rgb(8, 62, 88);
   flex: 1 1 auto;
   text-align: center;
 }
 
+/** intro page styles **/
 .intro-img {
   padding: 15px 0;
   width: 100%;

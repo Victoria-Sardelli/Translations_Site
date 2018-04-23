@@ -1,0 +1,20 @@
+.date-added {
+  padding-right: 15px;
+  text-align: right;
+}
+
+.trans-text-div {
+  display: flex;
+  flex-direction: column;
+  padding: 0 50px;
+}
+
+@media only screen and (min-width: 768px) {
+  .trans-text-div {
+    flex-direction: row;
+  }
+  /* put padding between text that is side-by-side */
+  .trans-text + .trans-text {
+    padding-left: 150px;
+  }
+}

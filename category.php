@@ -26,7 +26,8 @@
     // set db connection to use UTF-8
     $conn->query("SET NAMES utf8");
     // get all translations for this category
-    $sql = "SELECT id, name, author, engText, japText, dateAdded FROM $cat_name";
+    $sql = "SELECT id, name, author, engText, japText, dateAdded
+            FROM $cat_name ORDER BY dateAdded DESC";
     $result = $conn->query($sql);
 
     if ($result->num_rows > 0) {

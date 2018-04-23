@@ -18,7 +18,7 @@
       exit("Invalid Category");
     }
     // display category name as title on top
-    echo "<h1>$cat_name Category Page</h1>";
+    echo "<h1>$cat_name</h1>";
 
     // connect to db that contains translations
     include 'db_connection.php';

@@ -15,7 +15,7 @@
     }
     // check value of category name
     if ($cat_name != "Songs" && $cat_name != "Books" && $cat_name != "Poems") {
-      exit("Invalid Category");
+      exit("<h3>I'm sorry, the page you requested cannot be displayed at this time.</h3>");
     }
     // display category name as title on top
     echo "<h1>$cat_name</h1>";

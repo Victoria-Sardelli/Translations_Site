@@ -24,7 +24,7 @@
     }
     // check to see that song id was set
     if ($song_id === -1) {
-      exit("I'm sorry, the requested translation cannot be displayed at this time.");
+      exit("<h3>I'm sorry, the page you requested cannot be displayed at this time.</h3>");
     }
 
     // connect to db that contains translations
@@ -49,7 +49,7 @@
             </div>"; // english text
       echo "<p class='date-added'>Date added: ".date('F j, Y',strtotime($row["dateAdded"]))."</p>"; // date added to db
     } else {
-      echo "I'm sorry, the requested translation cannot be displayed at this time.";
+      echo "<h3>I'm sorry, the page you requested cannot be displayed at this time.</h3>";
     }
 
     // close connection to database

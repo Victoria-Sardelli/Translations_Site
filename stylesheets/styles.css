@@ -12,9 +12,8 @@ body {
 .main-content {
   align-self: center;
   color: rgb(8, 62, 88);
-  display: flex;
+  display: block;
   flex: 1 1 auto;
-  flex-direction: column;
   text-align: center;
 }
 
@@ -51,10 +50,6 @@ body {
 
 .nav-item:last-child {
   border-right: none;
-}
-
-.results {
-    flex: 1 1 auto;
 }
 
 /** topbar styles **/

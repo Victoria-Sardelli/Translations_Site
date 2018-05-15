@@ -1,6 +1,7 @@
 html, body {
   font-family: sans-serif;
   height: 100%;
+  overflow: auto;
 }
 
 body {

@@ -26,8 +26,16 @@
   text-align: center;
 }
 
+.lang-nav-item a {
+  color: rgb(8, 62, 88);
+  text-decoration: none;
+}
+
 .lang-active {
   background-color: rgb(8, 62, 88);
+}
+
+.lang-active a {
   color: white;
 }
 

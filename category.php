@@ -32,7 +32,7 @@
             FROM $cat_name ORDER BY dateAdded DESC";
 
     // try new pagination class
-    $limit = isset($_GET['limit']) ? $_GET['limit'] : 2;
+    $limit = isset($_GET['limit']) ? $_GET['limit'] : 5;
     $page = isset($_GET['page']) ? $_GET['page'] : 1;
     $links = isset($_GET['links']) ? $_GET['links'] : 5;
     $Paginator = new Paginator($conn, $sql);

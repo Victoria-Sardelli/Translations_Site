@@ -1,0 +1,35 @@
+.book-text {
+  border: 2px solid rgb(8, 62, 88);
+  display: none;
+  margin: 0;
+  padding: 10px;
+}
+
+.book-text-div {
+  padding: 0 50px;
+}
+
+.lang-nav {
+  display: inline-flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.lang-nav-item {
+  background-color: white;
+  cursor: pointer;
+  display: inline;
+  padding: 10px 25px;
+  text-align: center;
+}
+
+.lang-active {
+  background-color: rgb(8, 62, 88);
+  color: white;
+}
+
+.text-active {
+  display: block;
+}

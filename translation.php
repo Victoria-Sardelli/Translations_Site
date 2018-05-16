@@ -3,6 +3,8 @@
   include("includes/top.php");
 ?>
 <link rel="stylesheet" href="stylesheets/translation.css">
+<link rel="stylesheet" href="stylesheets/books_translation.css">
+<script type="text/javascript" src="js/translation.js"></script>
 <?php
   include("includes/header.php");
 ?>

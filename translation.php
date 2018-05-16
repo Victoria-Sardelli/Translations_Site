@@ -4,7 +4,6 @@
 ?>
 <link rel="stylesheet" href="stylesheets/translation.css">
 <link rel="stylesheet" href="stylesheets/books_translation.css">
-<script type="text/javascript" src="js/translation.js"></script>
 <?php
   include("includes/header.php");
 ?>
@@ -41,7 +40,7 @@
     $result = $conn->query($sql);
 
     // display results but layout may be different depending on category
-    include($cat_name.'_layout.php');
+    include('includes/'.$cat_name.'_layout.php');
 
     // close connection to database
     closeCon($conn);
